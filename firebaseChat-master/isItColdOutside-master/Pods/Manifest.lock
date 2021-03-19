@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.8.2)
+  - SDWebImage (5.0.0):
+    - SDWebImage/Core (= 5.0.0)
+  - SDWebImage/Core (5.0.0)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftyJSON (4.3.0)
+  - UnsplasherSDK (1.2.1):
+    - Alamofire (~> 4.6)
+    - SwiftKeychainWrapper (~> 3.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - SDWebImage
+  - SwiftyJSON
+  - UnsplasherSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SDWebImage
+    - SwiftKeychainWrapper
+    - SwiftyJSON
+    - UnsplasherSDK
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  UnsplasherSDK: 3bcebce1019a050aee5bac7a12748d75704d6235
+
+PODFILE CHECKSUM: 55e249bbe118013e9e9e96f55f552a83166e89ed
+
+COCOAPODS: 1.5.3

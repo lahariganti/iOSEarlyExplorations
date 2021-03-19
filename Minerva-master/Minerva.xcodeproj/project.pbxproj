@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423547E9F5CA97C7AC8F9820 /* Pods_Minerva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3F91D8EC3DACB2110EE206 /* Pods_Minerva.framework */; };
+		6C323DC722B4CCB50045CCA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323DC622B4CCB50045CCA9 /* AppDelegate.swift */; };
+		6C323DD122B4CCBA0045CCA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C323DCF22B4CCBA0045CCA9 /* LaunchScreen.storyboard */; };
+		6C323DDD22B4CDDB0045CCA9 /* UIColor+Minerva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323DDC22B4CDDB0045CCA9 /* UIColor+Minerva.swift */; };
+		6C323DE022B64C880045CCA9 /* URL+Minerva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323DDF22B64C880045CCA9 /* URL+Minerva.swift */; };
+		6C323DE222B650A20045CCA9 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323DE122B650A20045CCA9 /* PinterestLayout.swift */; };
+		6C323DE922B672C40045CCA9 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323DE722B672C40045CCA9 /* PhotoCell.swift */; };
+		6C323DEA22B672C40045CCA9 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C323DE822B672C40045CCA9 /* PhotoCell.xib */; };
+		6C323DEC22B672EF0045CCA9 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323DEB22B672EF0045CCA9 /* Photo.swift */; };
+		6C323DF122B772E90045CCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C323DF022B772E90045CCA9 /* Assets.xcassets */; };
+		6C323E0122B91F840045CCA9 /* PhotoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323E0022B91F840045CCA9 /* PhotoInteractor.swift */; };
+		6C323E0722BB48280045CCA9 /* PhotoStreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323E0522BB48280045CCA9 /* PhotoStreamVC.swift */; };
+		6C323E0A22BB72170045CCA9 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323E0922BB72170045CCA9 /* ProfileImageView.swift */; };
+		6C323F2022BB907C0045CCA9 /* TriangleStaff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C323F1F22BB907C0045CCA9 /* TriangleStaff.framework */; };
+		6C323F2122BB907C0045CCA9 /* TriangleStaff.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C323F1F22BB907C0045CCA9 /* TriangleStaff.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C323F2B22BBBA3F0045CCA9 /* String+Minerva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323F2A22BBBA3F0045CCA9 /* String+Minerva.swift */; };
+		6C323F2D22BBBCB20045CCA9 /* Date+Minerva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323F2C22BBBCB20045CCA9 /* Date+Minerva.swift */; };
+		6C323F3722BD18590045CCA9 /* Array+Minerva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C323F3622BD18590045CCA9 /* Array+Minerva.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C323F3222BBD8EE0045CCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C323F1222BB8F040045CCA9 /* TriangleStaff.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C323EEA22BB8EBC0045CCA9;
+			remoteInfo = TriangleStaff;
+		};
+		6C323F3422BBD8EE0045CCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C323F1222BB8F040045CCA9 /* TriangleStaff.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C323EF322BB8EBC0045CCA9;
+			remoteInfo = TriangleStaffTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C323EDE22BB82F10045CCA9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C323F2122BB907C0045CCA9 /* TriangleStaff.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E3F91D8EC3DACB2110EE206 /* Pods_Minerva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minerva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AE947A2647BC53AA1AEB38 /* Pods-Minerva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minerva.release.xcconfig"; path = "Pods/Target Support Files/Pods-Minerva/Pods-Minerva.release.xcconfig"; sourceTree = "<group>"; };
+		6C323DC322B4CCB50045CCA9 /* Minerva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minerva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C323DC622B4CCB50045CCA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C323DD022B4CCBA0045CCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C323DD222B4CCBA0045CCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C323DDC22B4CDDB0045CCA9 /* UIColor+Minerva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Minerva.swift"; sourceTree = "<group>"; };
+		6C323DDF22B64C880045CCA9 /* URL+Minerva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Minerva.swift"; sourceTree = "<group>"; };
+		6C323DE122B650A20045CCA9 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		6C323DE722B672C40045CCA9 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		6C323DE822B672C40045CCA9 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		6C323DEB22B672EF0045CCA9 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		6C323DF022B772E90045CCA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C323E0022B91F840045CCA9 /* PhotoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInteractor.swift; sourceTree = "<group>"; };
+		6C323E0522BB48280045CCA9 /* PhotoStreamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStreamVC.swift; sourceTree = "<group>"; };
+		6C323E0922BB72170045CCA9 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		6C323F1222BB8F040045CCA9 /* TriangleStaff.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TriangleStaff.xcodeproj; path = TriangleStaff/TriangleStaff.xcodeproj; sourceTree = "<group>"; };
+		6C323F1F22BB907C0045CCA9 /* TriangleStaff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TriangleStaff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C323F2A22BBBA3F0045CCA9 /* String+Minerva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Minerva.swift"; sourceTree = "<group>"; };
+		6C323F2C22BBBCB20045CCA9 /* Date+Minerva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Minerva.swift"; sourceTree = "<group>"; };
+		6C323F3622BD18590045CCA9 /* Array+Minerva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Minerva.swift"; sourceTree = "<group>"; };
+		AEF52F6C4ED9F76DC617EBC0 /* Pods-Minerva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minerva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Minerva/Pods-Minerva.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C323DC022B4CCB50045CCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C323F2022BB907C0045CCA9 /* TriangleStaff.framework in Frameworks */,
+				423547E9F5CA97C7AC8F9820 /* Pods_Minerva.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5199D6C3D2444CA56E8B2285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E3F91D8EC3DACB2110EE206 /* Pods_Minerva.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C323DBA22B4CCB50045CCA9 = {
+			isa = PBXGroup;
+			children = (
+				6C323F1F22BB907C0045CCA9 /* TriangleStaff.framework */,
+				6C323F1222BB8F040045CCA9 /* TriangleStaff.xcodeproj */,
+				6C323DC522B4CCB50045CCA9 /* Minerva */,
+				6C323DC422B4CCB50045CCA9 /* Products */,
+				90DE4E26736D144C559F2337 /* Pods */,
+				5199D6C3D2444CA56E8B2285 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C323DC422B4CCB50045CCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C323DC322B4CCB50045CCA9 /* Minerva.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C323DC522B4CCB50045CCA9 /* Minerva */ = {
+			isa = PBXGroup;
+			children = (
+				6C323DD822B4CD930045CCA9 /* Supporting Files */,
+				6C323DDE22B4CDE10045CCA9 /* Extensions */,
+				6C323DED22B673060045CCA9 /* Model */,
+				6C323DD922B4CDA10045CCA9 /* Controller */,
+				6C323E0222B91F8A0045CCA9 /* Interactor */,
+				6C323DE522B654B70045CCA9 /* Layouts */,
+				6C323DE622B654C00045CCA9 /* View */,
+			);
+			path = Minerva;
+			sourceTree = "<group>";
+		};
+		6C323DD822B4CD930045CCA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C323DF022B772E90045CCA9 /* Assets.xcassets */,
+				6C323DD222B4CCBA0045CCA9 /* Info.plist */,
+				6C323DCF22B4CCBA0045CCA9 /* LaunchScreen.storyboard */,
+				6C323DC622B4CCB50045CCA9 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C323DD922B4CDA10045CCA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C323E0522BB48280045CCA9 /* PhotoStreamVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6C323DDE22B4CDE10045CCA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6C323DDC22B4CDDB0045CCA9 /* UIColor+Minerva.swift */,
+				6C323DDF22B64C880045CCA9 /* URL+Minerva.swift */,
+				6C323F2A22BBBA3F0045CCA9 /* String+Minerva.swift */,
+				6C323F2C22BBBCB20045CCA9 /* Date+Minerva.swift */,
+				6C323F3622BD18590045CCA9 /* Array+Minerva.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6C323DE522B654B70045CCA9 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				6C323DE122B650A20045CCA9 /* PinterestLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		6C323DE622B654C00045CCA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C323DE722B672C40045CCA9 /* PhotoCell.swift */,
+				6C323DE822B672C40045CCA9 /* PhotoCell.xib */,
+				6C323E0922BB72170045CCA9 /* ProfileImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C323DED22B673060045CCA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C323DEB22B672EF0045CCA9 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C323E0222B91F8A0045CCA9 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6C323E0022B91F840045CCA9 /* PhotoInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6C323F2E22BBD8EE0045CCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C323F3322BBD8EE0045CCA9 /* TriangleStaff.framework */,
+				6C323F3522BBD8EE0045CCA9 /* TriangleStaffTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90DE4E26736D144C559F2337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEF52F6C4ED9F76DC617EBC0 /* Pods-Minerva.debug.xcconfig */,
+				55AE947A2647BC53AA1AEB38 /* Pods-Minerva.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C323DC222B4CCB50045CCA9 /* Minerva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C323DD522B4CCBA0045CCA9 /* Build configuration list for PBXNativeTarget "Minerva" */;
+			buildPhases = (
+				50D9B1896F4BDDCF39159FF9 /* [CP] Check Pods Manifest.lock */,
+				6C323DBF22B4CCB50045CCA9 /* Sources */,
+				6C323DC022B4CCB50045CCA9 /* Frameworks */,
+				6C323DC122B4CCB50045CCA9 /* Resources */,
+				6C323EDE22BB82F10045CCA9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minerva;
+			productName = Fetch;
+			productReference = 6C323DC322B4CCB50045CCA9 /* Minerva.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C323DBB22B4CCB50045CCA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Lahari Ganti";
+				TargetAttributes = {
+					6C323DC222B4CCB50045CCA9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C323DBE22B4CCB50045CCA9 /* Build configuration list for PBXProject "Minerva" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C323DBA22B4CCB50045CCA9;
+			productRefGroup = 6C323DC422B4CCB50045CCA9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6C323F2E22BBD8EE0045CCA9 /* Products */;
+					ProjectRef = 6C323F1222BB8F040045CCA9 /* TriangleStaff.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6C323DC222B4CCB50045CCA9 /* Minerva */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6C323F3322BBD8EE0045CCA9 /* TriangleStaff.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TriangleStaff.framework;
+			remoteRef = 6C323F3222BBD8EE0045CCA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C323F3522BBD8EE0045CCA9 /* TriangleStaffTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TriangleStaffTests.xctest;
+			remoteRef = 6C323F3422BBD8EE0045CCA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C323DC122B4CCB50045CCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C323DEA22B672C40045CCA9 /* PhotoCell.xib in Resources */,
+				6C323DF122B772E90045CCA9 /* Assets.xcassets in Resources */,
+				6C323DD122B4CCBA0045CCA9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50D9B1896F4BDDCF39159FF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minerva-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C323DBF22B4CCB50045CCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C323E0A22BB72170045CCA9 /* ProfileImageView.swift in Sources */,
+				6C323F2B22BBBA3F0045CCA9 /* String+Minerva.swift in Sources */,
+				6C323F2D22BBBCB20045CCA9 /* Date+Minerva.swift in Sources */,
+				6C323DEC22B672EF0045CCA9 /* Photo.swift in Sources */,
+				6C323DE222B650A20045CCA9 /* PinterestLayout.swift in Sources */,
+				6C323DDD22B4CDDB0045CCA9 /* UIColor+Minerva.swift in Sources */,
+				6C323E0122B91F840045CCA9 /* PhotoInteractor.swift in Sources */,
+				6C323DE022B64C880045CCA9 /* URL+Minerva.swift in Sources */,
+				6C323DE922B672C40045CCA9 /* PhotoCell.swift in Sources */,
+				6C323E0722BB48280045CCA9 /* PhotoStreamVC.swift in Sources */,
+				6C323F3722BD18590045CCA9 /* Array+Minerva.swift in Sources */,
+				6C323DC722B4CCB50045CCA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C323DCF22B4CCBA0045CCA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C323DD022B4CCBA0045CCA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C323DD422B4CCBA0045CCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C323DD722B4CCBA0045CCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AE947A2647BC53AA1AEB38 /* Pods-Minerva.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7699K39ZR4;
+				INFOPLIST_FILE = "$(SRCROOT)/Minerva/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.gplahari.Fetch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C323DBE22B4CCB50045CCA9 /* Build configuration list for PBXProject "Minerva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C323DD422B4CCBA0045CCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C323DD522B4CCBA0045CCA9 /* Build configuration list for PBXNativeTarget "Minerva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C323DD722B4CCBA0045CCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C323DBB22B4CCB50045CCA9 /* Project object */;
+}

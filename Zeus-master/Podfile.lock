@@ -1,0 +1,28 @@
+PODS:
+  - Eureka (5.0.0)
+  - Keys (1.0.1)
+  - SuggestionRow (3.0.0):
+    - Eureka (~> 5.0)
+
+DEPENDENCIES:
+  - Eureka
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - SuggestionRow
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Eureka
+    - SuggestionRow
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+  SuggestionRow: 56423e7f52db720feed251eeb64caed444b4207b
+
+PODFILE CHECKSUM: d0172b57941095c7024ef8e07a98523dc0b90f50
+
+COCOAPODS: 1.5.3

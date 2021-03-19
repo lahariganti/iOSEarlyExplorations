@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootVC" customModule="isItColdOutside" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImageView" destination="NNM-vt-008" id="jHg-ij-2ku"/>
+                <outlet property="cityNameLabel" destination="NWH-8d-G1N" id="VcC-Gf-08y"/>
+                <outlet property="shouldIBringAJAcketButton" destination="em2-kq-mLy" id="YV1-e4-mmI"/>
+                <outlet property="temperatureLabel" destination="GE1-V8-eQd" id="uZB-Up-gV4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="weatherDescriptionLabel" destination="N3U-Ww-PDA" id="wWf-t2-8FC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NNM-vt-008">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="17u-a6-Y9X">
+                    <rect key="frame" x="100" y="52" width="175" height="110"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWH-8d-G1N">
+                            <rect key="frame" x="0.0" y="0.0" width="175" height="24"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N3U-Ww-PDA">
+                            <rect key="frame" x="0.0" y="34" width="175" height="18"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tempº" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE1-V8-eQd">
+                            <rect key="frame" x="0.0" y="62" width="175" height="48"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="em2-kq-mLy">
+                    <rect key="frame" x="82" y="322" width="199" height="39"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="Q2E-L1-EZr"/>
+                    </constraints>
+                    <state key="normal" title="Should I bring a jacket?">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="em2-kq-mLy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="82" id="14q-5t-Lt3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="NNM-vt-008" secondAttribute="top" constant="20" id="5r2-nG-JBO"/>
+                <constraint firstItem="17u-a6-Y9X" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="7wK-ce-OIA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="NNM-vt-008" secondAttribute="bottom" id="EmG-OM-79A"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="17u-a6-Y9X" secondAttribute="trailing" constant="100" id="HM9-Rb-1gm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NNM-vt-008" secondAttribute="trailing" id="Uv2-dI-XQj"/>
+                <constraint firstItem="em2-kq-mLy" firstAttribute="top" secondItem="17u-a6-Y9X" secondAttribute="bottom" constant="160" id="b2k-Uh-dJa"/>
+                <constraint firstItem="NNM-vt-008" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lnC-j8-kgS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="em2-kq-mLy" secondAttribute="trailing" constant="94" id="umV-ZJ-B0E"/>
+                <constraint firstItem="17u-a6-Y9X" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="wId-gW-gBu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="125.59999999999999" y="129.98500749625188"/>
+        </view>
+    </objects>
+</document>

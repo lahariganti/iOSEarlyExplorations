@@ -1,0 +1,6 @@
+framework module Pods_BTCC {
+  umbrella header "Pods-BTCC-umbrella.h"
+
+  export *
+  module * { export * }
+}
