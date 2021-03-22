@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0tS-ZP-PGY" userLabel="Card Cell" customClass="CardCell" customModule="Kioku" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="156" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="156" height="244"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lbj-26-Pmx">
+                        <rect key="frame" x="0.0" y="0.0" width="156" height="244"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pattern1" translatesAutoresizingMaskIntoConstraints="NO" id="zZ7-7o-8qA">
+                        <rect key="frame" x="0.0" y="0.0" width="156" height="244"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="lbj-26-Pmx" firstAttribute="bottom" secondItem="kbY-C7-azx" secondAttribute="bottom" constant="34" id="0FM-T7-jJr"/>
+                <constraint firstItem="kbY-C7-azx" firstAttribute="trailing" secondItem="zZ7-7o-8qA" secondAttribute="trailing" id="EH9-EX-inx"/>
+                <constraint firstItem="kbY-C7-azx" firstAttribute="top" secondItem="lbj-26-Pmx" secondAttribute="top" constant="44" id="GFF-it-vet"/>
+                <constraint firstItem="lbj-26-Pmx" firstAttribute="leading" secondItem="kbY-C7-azx" secondAttribute="leading" id="Oka-GX-kZ6"/>
+                <constraint firstItem="kbY-C7-azx" firstAttribute="trailing" secondItem="lbj-26-Pmx" secondAttribute="trailing" id="Zhx-se-sOQ"/>
+                <constraint firstItem="zZ7-7o-8qA" firstAttribute="leading" secondItem="kbY-C7-azx" secondAttribute="leading" id="ahj-94-nXm"/>
+                <constraint firstItem="zZ7-7o-8qA" firstAttribute="bottom" secondItem="kbY-C7-azx" secondAttribute="bottom" constant="34" id="nTK-pZ-hrN"/>
+                <constraint firstItem="kbY-C7-azx" firstAttribute="top" secondItem="zZ7-7o-8qA" secondAttribute="top" constant="44" id="vjI-zm-C5j"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="kbY-C7-azx"/>
+            <size key="customSize" width="156" height="244"/>
+            <connections>
+                <outlet property="backImageView" destination="lbj-26-Pmx" id="JfB-2q-Vza"/>
+                <outlet property="frontImageView" destination="zZ7-7o-8qA" id="end-cG-Sh9"/>
+            </connections>
+            <point key="canvasLocation" x="-223.18840579710147" y="32.8125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="pattern1" width="1050" height="700"/>
+    </resources>
+</document>

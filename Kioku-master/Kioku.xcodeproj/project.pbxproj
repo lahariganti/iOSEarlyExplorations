@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C049E452338B4540094CC7F /* UIImageView+Kioku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C049E442338B4540094CC7F /* UIImageView+Kioku.swift */; };
+		6C26EB8F233393CB001D84A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EB8E233393CB001D84A8 /* AppDelegate.swift */; };
+		6C26EB96233393CD001D84A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C26EB95233393CD001D84A8 /* Assets.xcassets */; };
+		6C26EB99233393CD001D84A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C26EB97233393CD001D84A8 /* LaunchScreen.storyboard */; };
+		6C26EBA4233393CD001D84A8 /* KiokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBA3233393CD001D84A8 /* KiokuTests.swift */; };
+		6C26EBAF233393CD001D84A8 /* KiokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBAE233393CD001D84A8 /* KiokuUITests.swift */; };
+		6C26EBBE23339413001D84A8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBBC23339413001D84A8 /* HomeVC.swift */; };
+		6C26EBC4233394CE001D84A8 /* UIColor+Kioku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBC3233394CE001D84A8 /* UIColor+Kioku.swift */; };
+		6C26EBC7233394EE001D84A8 /* URL+Kioku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBC6233394EE001D84A8 /* URL+Kioku.swift */; };
+		6C26EBC923339567001D84A8 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBC823339567001D84A8 /* Endpoint.swift */; };
+		6C26EBCC23339716001D84A8 /* ProductInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBCB23339716001D84A8 /* ProductInteractor.swift */; };
+		6C26EBCF2333976D001D84A8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBCE2333976D001D84A8 /* Product.swift */; };
+		6C26EBD1233397F2001D84A8 /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBD0233397F2001D84A8 /* ErrorPresenter.swift */; };
+		6C26EBD423339841001D84A8 /* ErrorDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBD323339841001D84A8 /* ErrorDialog.swift */; };
+		6C26EBD92334217D001D84A8 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBD72334217D001D84A8 /* CardCell.swift */; };
+		6C26EBDA2334217D001D84A8 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C26EBD82334217D001D84A8 /* CardCell.xib */; };
+		6C26EBDE23342F67001D84A8 /* Array+Kioku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBDD23342F67001D84A8 /* Array+Kioku.swift */; };
+		6C26EBE22334472C001D84A8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBE12334472C001D84A8 /* Card.swift */; };
+		6C26EBE62334F933001D84A8 /* KiokuFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBE52334F933001D84A8 /* KiokuFooter.swift */; };
+		6C26EBE82334FA45001D84A8 /* UIView+Kioku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBE72334FA45001D84A8 /* UIView+Kioku.swift */; };
+		6C26EBEC2335C20F001D84A8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26EBEB2335C20F001D84A8 /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C26EBA0233393CD001D84A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C26EB83233393CB001D84A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C26EB8A233393CB001D84A8;
+			remoteInfo = Kioku;
+		};
+		6C26EBAB233393CD001D84A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C26EB83233393CB001D84A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C26EB8A233393CB001D84A8;
+			remoteInfo = Kioku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C049E442338B4540094CC7F /* UIImageView+Kioku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImageView+Kioku.swift"; path = "Kioku/Extensions/UIImageView+Kioku.swift"; sourceTree = SOURCE_ROOT; };
+		6C26EB8B233393CB001D84A8 /* Kioku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kioku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C26EB8E233393CB001D84A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C26EB95233393CD001D84A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C26EB98233393CD001D84A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C26EB9A233393CD001D84A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C26EB9F233393CD001D84A8 /* KiokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C26EBA3233393CD001D84A8 /* KiokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiokuTests.swift; sourceTree = "<group>"; };
+		6C26EBA5233393CD001D84A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C26EBAA233393CD001D84A8 /* KiokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C26EBAE233393CD001D84A8 /* KiokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiokuUITests.swift; sourceTree = "<group>"; };
+		6C26EBB0233393CD001D84A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C26EBBC23339413001D84A8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6C26EBC3233394CE001D84A8 /* UIColor+Kioku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Kioku.swift"; sourceTree = "<group>"; };
+		6C26EBC6233394EE001D84A8 /* URL+Kioku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Kioku.swift"; sourceTree = "<group>"; };
+		6C26EBC823339567001D84A8 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		6C26EBCB23339716001D84A8 /* ProductInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInteractor.swift; sourceTree = "<group>"; };
+		6C26EBCE2333976D001D84A8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		6C26EBD0233397F2001D84A8 /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
+		6C26EBD323339841001D84A8 /* ErrorDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDialog.swift; sourceTree = "<group>"; };
+		6C26EBD72334217D001D84A8 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		6C26EBD82334217D001D84A8 /* CardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		6C26EBDD23342F67001D84A8 /* Array+Kioku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Kioku.swift"; sourceTree = "<group>"; };
+		6C26EBE12334472C001D84A8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6C26EBE52334F933001D84A8 /* KiokuFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KiokuFooter.swift; path = Kioku/View/KiokuFooter.swift; sourceTree = SOURCE_ROOT; };
+		6C26EBE72334FA45001D84A8 /* UIView+Kioku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Kioku.swift"; sourceTree = "<group>"; };
+		6C26EBEB2335C20F001D84A8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C26EB88233393CB001D84A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26EB9C233393CD001D84A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26EBA7233393CD001D84A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C26EB82233393CB001D84A8 = {
+			isa = PBXGroup;
+			children = (
+				6C26EB8D233393CB001D84A8 /* Kioku */,
+				6C26EBA2233393CD001D84A8 /* KiokuTests */,
+				6C26EBAD233393CD001D84A8 /* KiokuUITests */,
+				6C26EB8C233393CB001D84A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C26EB8C233393CB001D84A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EB8B233393CB001D84A8 /* Kioku.app */,
+				6C26EB9F233393CD001D84A8 /* KiokuTests.xctest */,
+				6C26EBAA233393CD001D84A8 /* KiokuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C26EB8D233393CB001D84A8 /* Kioku */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBC02333941E001D84A8 /* Supporting Files */,
+				6C26EBC5233394D9001D84A8 /* Extensions */,
+				6C26EBD523339847001D84A8 /* View */,
+				6C26EBCD23339719001D84A8 /* Interactor */,
+				6C26EBD2233397F5001D84A8 /* Presenter */,
+				6C26EBCA2333956B001D84A8 /* Model */,
+				6C26EBC12333942D001D84A8 /* Controller */,
+			);
+			path = Kioku;
+			sourceTree = "<group>";
+		};
+		6C26EBA2233393CD001D84A8 /* KiokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBA3233393CD001D84A8 /* KiokuTests.swift */,
+				6C26EBA5233393CD001D84A8 /* Info.plist */,
+			);
+			path = KiokuTests;
+			sourceTree = "<group>";
+		};
+		6C26EBAD233393CD001D84A8 /* KiokuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBAE233393CD001D84A8 /* KiokuUITests.swift */,
+				6C26EBB0233393CD001D84A8 /* Info.plist */,
+			);
+			path = KiokuUITests;
+			sourceTree = "<group>";
+		};
+		6C26EBC02333941E001D84A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EB8E233393CB001D84A8 /* AppDelegate.swift */,
+				6C26EB95233393CD001D84A8 /* Assets.xcassets */,
+				6C26EB97233393CD001D84A8 /* LaunchScreen.storyboard */,
+				6C26EB9A233393CD001D84A8 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C26EBC12333942D001D84A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBBC23339413001D84A8 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6C26EBC5233394D9001D84A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBC3233394CE001D84A8 /* UIColor+Kioku.swift */,
+				6C26EBC6233394EE001D84A8 /* URL+Kioku.swift */,
+				6C26EBDD23342F67001D84A8 /* Array+Kioku.swift */,
+				6C049E442338B4540094CC7F /* UIImageView+Kioku.swift */,
+				6C26EBE72334FA45001D84A8 /* UIView+Kioku.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6C26EBCA2333956B001D84A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBC823339567001D84A8 /* Endpoint.swift */,
+				6C26EBCE2333976D001D84A8 /* Product.swift */,
+				6C26EBE12334472C001D84A8 /* Card.swift */,
+				6C26EBEB2335C20F001D84A8 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C26EBCD23339719001D84A8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBCB23339716001D84A8 /* ProductInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6C26EBD2233397F5001D84A8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBD0233397F2001D84A8 /* ErrorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6C26EBD523339847001D84A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C26EBE52334F933001D84A8 /* KiokuFooter.swift */,
+				6C26EBD323339841001D84A8 /* ErrorDialog.swift */,
+				6C26EBD72334217D001D84A8 /* CardCell.swift */,
+				6C26EBD82334217D001D84A8 /* CardCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C26EB8A233393CB001D84A8 /* Kioku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C26EBB3233393CD001D84A8 /* Build configuration list for PBXNativeTarget "Kioku" */;
+			buildPhases = (
+				6C26EB87233393CB001D84A8 /* Sources */,
+				6C26EB88233393CB001D84A8 /* Frameworks */,
+				6C26EB89233393CB001D84A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kioku;
+			productName = Kioku;
+			productReference = 6C26EB8B233393CB001D84A8 /* Kioku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C26EB9E233393CD001D84A8 /* KiokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C26EBB6233393CD001D84A8 /* Build configuration list for PBXNativeTarget "KiokuTests" */;
+			buildPhases = (
+				6C26EB9B233393CD001D84A8 /* Sources */,
+				6C26EB9C233393CD001D84A8 /* Frameworks */,
+				6C26EB9D233393CD001D84A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C26EBA1233393CD001D84A8 /* PBXTargetDependency */,
+			);
+			name = KiokuTests;
+			productName = KiokuTests;
+			productReference = 6C26EB9F233393CD001D84A8 /* KiokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C26EBA9233393CD001D84A8 /* KiokuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C26EBB9233393CD001D84A8 /* Build configuration list for PBXNativeTarget "KiokuUITests" */;
+			buildPhases = (
+				6C26EBA6233393CD001D84A8 /* Sources */,
+				6C26EBA7233393CD001D84A8 /* Frameworks */,
+				6C26EBA8233393CD001D84A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C26EBAC233393CD001D84A8 /* PBXTargetDependency */,
+			);
+			name = KiokuUITests;
+			productName = KiokuUITests;
+			productReference = 6C26EBAA233393CD001D84A8 /* KiokuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C26EB83233393CB001D84A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Lahari Ganti";
+				TargetAttributes = {
+					6C26EB8A233393CB001D84A8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					6C26EB9E233393CD001D84A8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6C26EB8A233393CB001D84A8;
+					};
+					6C26EBA9233393CD001D84A8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6C26EB8A233393CB001D84A8;
+					};
+				};
+			};
+			buildConfigurationList = 6C26EB86233393CB001D84A8 /* Build configuration list for PBXProject "Kioku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C26EB82233393CB001D84A8;
+			productRefGroup = 6C26EB8C233393CB001D84A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C26EB8A233393CB001D84A8 /* Kioku */,
+				6C26EB9E233393CD001D84A8 /* KiokuTests */,
+				6C26EBA9233393CD001D84A8 /* KiokuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C26EB89233393CB001D84A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26EB99233393CD001D84A8 /* LaunchScreen.storyboard in Resources */,
+				6C26EBDA2334217D001D84A8 /* CardCell.xib in Resources */,
+				6C26EB96233393CD001D84A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26EB9D233393CD001D84A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26EBA8233393CD001D84A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C26EB87233393CB001D84A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26EBBE23339413001D84A8 /* HomeVC.swift in Sources */,
+				6C26EBEC2335C20F001D84A8 /* Game.swift in Sources */,
+				6C26EBD1233397F2001D84A8 /* ErrorPresenter.swift in Sources */,
+				6C26EBD423339841001D84A8 /* ErrorDialog.swift in Sources */,
+				6C26EBE62334F933001D84A8 /* KiokuFooter.swift in Sources */,
+				6C26EBC4233394CE001D84A8 /* UIColor+Kioku.swift in Sources */,
+				6C26EB8F233393CB001D84A8 /* AppDelegate.swift in Sources */,
+				6C26EBE82334FA45001D84A8 /* UIView+Kioku.swift in Sources */,
+				6C26EBDE23342F67001D84A8 /* Array+Kioku.swift in Sources */,
+				6C26EBD92334217D001D84A8 /* CardCell.swift in Sources */,
+				6C26EBE22334472C001D84A8 /* Card.swift in Sources */,
+				6C26EBC7233394EE001D84A8 /* URL+Kioku.swift in Sources */,
+				6C049E452338B4540094CC7F /* UIImageView+Kioku.swift in Sources */,
+				6C26EBCC23339716001D84A8 /* ProductInteractor.swift in Sources */,
+				6C26EBC923339567001D84A8 /* Endpoint.swift in Sources */,
+				6C26EBCF2333976D001D84A8 /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26EB9B233393CD001D84A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26EBA4233393CD001D84A8 /* KiokuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C26EBA6233393CD001D84A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26EBAF233393CD001D84A8 /* KiokuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C26EBA1233393CD001D84A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C26EB8A233393CB001D84A8 /* Kioku */;
+			targetProxy = 6C26EBA0233393CD001D84A8 /* PBXContainerItemProxy */;
+		};
+		6C26EBAC233393CD001D84A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C26EB8A233393CB001D84A8 /* Kioku */;
+			targetProxy = 6C26EBAB233393CD001D84A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C26EB97233393CD001D84A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C26EB98233393CD001D84A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C26EBB1233393CD001D84A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C26EBB2233393CD001D84A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C26EBB4233393CD001D84A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7699K39ZR4;
+				INFOPLIST_FILE = "$(SRCROOT)/Kioku/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.gplahari.Kioku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C26EBB5233393CD001D84A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7699K39ZR4;
+				INFOPLIST_FILE = "$(SRCROOT)/Kioku/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.gplahari.Kioku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C26EBB7233393CD001D84A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7699K39ZR4;
+				INFOPLIST_FILE = KiokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.gplahari.KiokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kioku.app/Kioku";
+			};
+			name = Debug;
+		};
+		6C26EBB8233393CD001D84A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7699K39ZR4;
+				INFOPLIST_FILE = KiokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.gplahari.KiokuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kioku.app/Kioku";
+			};
+			name = Release;
+		};
+		6C26EBBA233393CD001D84A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7699K39ZR4;
+				INFOPLIST_FILE = KiokuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.gplahari.KiokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kioku;
+			};
+			name = Debug;
+		};
+		6C26EBBB233393CD001D84A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7699K39ZR4;
+				INFOPLIST_FILE = KiokuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gmail.gplahari.KiokuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kioku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C26EB86233393CB001D84A8 /* Build configuration list for PBXProject "Kioku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26EBB1233393CD001D84A8 /* Debug */,
+				6C26EBB2233393CD001D84A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C26EBB3233393CD001D84A8 /* Build configuration list for PBXNativeTarget "Kioku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26EBB4233393CD001D84A8 /* Debug */,
+				6C26EBB5233393CD001D84A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C26EBB6233393CD001D84A8 /* Build configuration list for PBXNativeTarget "KiokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26EBB7233393CD001D84A8 /* Debug */,
+				6C26EBB8233393CD001D84A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C26EBB9233393CD001D84A8 /* Build configuration list for PBXNativeTarget "KiokuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C26EBBA233393CD001D84A8 /* Debug */,
+				6C26EBBB233393CD001D84A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C26EB83233393CB001D84A8 /* Project object */;
+}
